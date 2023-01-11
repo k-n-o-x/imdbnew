@@ -91,7 +91,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Koyeb {Free}</summary>
 <p>
 <br>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/TamilanBotsZ/AwesomeFilter&branch=main">
+<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/k-n-o-x/Autofilterv1&branch=main">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="deploy-to-koyeb">
   </a>
   </p>
