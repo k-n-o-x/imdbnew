@@ -111,7 +111,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Railway {Free}</summary>
 <p>
 <br>
-<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FTamilanBotsZ%2FAwesomeFilter">
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fk-n-o-x%2FAutofilterv1">
   <img src="https://railway.app/button.svg" alt="deploy-to-railway">
   </a>
   </p>
