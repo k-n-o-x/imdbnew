@@ -406,12 +406,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/Tamilan_BotsZ')
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📣 Updates', url='https://t.me/Pikachunub')
             ],[
-            InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('👩‍💻 Rᴇᴘᴏ', url='https://Github.Com/TamilanBotsZ/AwesomeFilter'),
-            InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('❗Help❗', callback_data='help'),
+            InlineKeyboardButton('💬 Group', url='https://t.me/+gZi9TiIcKA84Y2Y1'),
+            InlineKeyboardButton('☣️ About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -428,8 +428,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Connection', callback_data='coct'),
             InlineKeyboardButton('Extra Mods', callback_data='extra')
         ], [
-            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔮 Hᴏᴍᴇ', callback_data='stats')
+            InlineKeyboardButton('🏠 HOME', callback_data='start'),
+            InlineKeyboardButton('🔮 Status', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -439,12 +439,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/Tamilan_BotsZ'),
-            InlineKeyboardButton('♥️ Sᴏᴜʀᴄᴇ', callback_data='source')
+            InlineKeyboardButton('📣 Updates', url='https://t.me/Pikachunub'),
+            InlineKeyboardButton('💽 Source', callback_data='source')
         ], [
-            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('👩‍💻 Rᴇᴘᴏ', url='https://Github.Com/TamilanBotsZ/AwesomeFilter'),
-            InlineKeyboardButton('🔐 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('🏠 HOME', callback_data='start'),
+            InlineKeyboardButton('🩹 Suggestions', url='https://t.me/+LMWMN8WCg9I2YTk9'),
+            InlineKeyboardButton('❌ Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
