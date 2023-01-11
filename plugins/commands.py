@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/Tamilan_BotsZ')
+                InlineKeyboardButton('📣 Updates', url='https://t.me/Pikachunub')
             ],
             [
-                InlineKeyboardButton('ℹ️ Hᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('❗Help❗', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,11 +45,11 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/Tamilan_BotsZ')
+            InlineKeyboardButton('📣 Channel', url='https://t.me/Pikachunub')
             ],[
-            InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('👩‍💻 Rᴇᴘᴏ', url='https://Github.Com/TamilanBotsZ/AwesomeFilter'),
-            InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('❗Help❗', callback_data='help'),
+            InlineKeyboardButton('❇️ Backup', url='https://t.me/HeyPikachunub'),
+            InlineKeyboardButton('☣️ About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,12 +91,12 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/Tamilan_BotsZ')
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📣 Channel', url='https://t.me/Pikachunub')
             ],[
-            InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('👩‍💻 Rᴇᴘᴏ', url='https://Github.Com/TamilanBotsZ/AwesomeFilter'),
-            InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('❗Help❗', callback_data='help'),
+            InlineKeyboardButton('💬 Group', url='https://t.me/+gZi9TiIcKA84Y2Y1'),
+            InlineKeyboardButton('☣️ About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
