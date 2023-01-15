@@ -111,12 +111,8 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Railway {Free}</summary>
 <p>
 <br>
-https://railway.app/new/template/CdPVga?referralCode=i8GLMz
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/CdPVga?referralCode=i8GLMz)
-
-
-<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fk-n-o-x%2FAutofilterv1">
-  <img src="https://railway.app/button.svg" alt="deploy-to-railway">
+<a href="https://railway.app/new/template?template=https://railway.app/new/template/CdPVga?referralCode=i8GLMz">
+  <img src="[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/CdPVga?referralCode=i8GLMz)">
   </a>
   </p>
   </details>
