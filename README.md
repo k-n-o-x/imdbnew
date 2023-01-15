@@ -111,6 +111,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Railway {Free}</summary>
 <p>
 <br>
+https://railway.app/new/template/CdPVga?referralCode=i8GLMz
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/CdPVga?referralCode=i8GLMz)
 
 
