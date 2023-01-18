@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/EvamariaTG/EvaMaria",
-    "repository": "https://github.com/k-n-o-x/Autofilterv1",
+    "repository": "https://github.com/k-n-o-x/imdbnew",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
